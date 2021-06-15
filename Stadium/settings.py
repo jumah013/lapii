@@ -32,7 +32,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '+nf6x2of5yp!b*k4usmcxh3sk$j)&&+vza46g=)-d!1a@si_ef'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['lapii.herokuapp.com', '127.0.0.1']
 AUTH_USER_MODEL ='stadii.User'
